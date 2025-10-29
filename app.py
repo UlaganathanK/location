@@ -3,7 +3,7 @@
 
 from flask import Flask, request, jsonify, Response, render_template_string
 from twilio.rest import Client
-import xml.et.ree.ElementTree as ET
+import xml.etree.ElementTree as ET   # <-- CORRECT
 import uuid
 import os
 import sys
